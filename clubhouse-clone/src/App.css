@@ -15,7 +15,7 @@ body{
 }
 
 button { 
-  outline: none important;
+  outline: none !important;
 }
 
 a { 
@@ -34,6 +34,16 @@ a {
 }
 
 a:hover { 
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
+
+.app_layout { 
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;    
+
+}

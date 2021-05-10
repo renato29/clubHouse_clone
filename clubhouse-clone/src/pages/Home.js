@@ -1,10 +1,9 @@
 import React from 'react'
+import Header from '../components/Header';
 
 function Home() {
     return (
-        <div>
-            <h2>This is th Home page</h2>
-        </div>
+        <Header/>
     )
 }
 

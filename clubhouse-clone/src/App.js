@@ -32,7 +32,7 @@ function App() {
       <Route exact path={['/home']} >
         <AppLayout>
           <Switch>
-            <Route exact path='/home' component={() => <Home />}>  </Route>
+            <Route exact path='/home' component={()=><Home />}/>
           </Switch>
         </AppLayout>
       </Route>
