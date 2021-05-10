@@ -13,3 +13,27 @@ body{
   font-size: 1em;
   font-family: "Neutrif Prof";
 }
+
+button { 
+  outline: none important;
+}
+
+a { 
+  text-decoration: none;
+}
+
+.primaryBtn { 
+  background-color: var(--btnBgColor);
+  color: #ffff;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+  font-weight: 500;
+  font-size: 1.2em;
+  font-style: normal;
+  text-decoration: center;
+}
+
+a:hover { 
+  text-decoration: none;
+}
+
